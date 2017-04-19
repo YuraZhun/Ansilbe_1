@@ -1,0 +1,12 @@
+## webapp
+
+webserver_name: ec2-52-14-173-77.us-east-2.compute.amazonaws.com
+deploy_directory: /data/myapp/
+app_name: myapp
+
+## stolen from https://github.com/jgrowl/ansible-playbook-ruby-from-src
+rubyTmpDir: /usr/local/src
+rubyUrl: http://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.1.tar.gz
+rubyCompressedFile: ruby-2.4.1.tar.gz
+rubyName: ruby-2.4.1
+tmpRubyPath: "{{rubyTmpDir}}/{{rubyName}}"
